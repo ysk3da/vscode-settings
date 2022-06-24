@@ -175,7 +175,7 @@ Stylelintはこのファイルを読み込み、その内容にしたがって�
 ## 実際に動かしてみよう
 
 ```
-npx stylelint "**/*.{css, scss}"
+npx stylelint "**/*.{css,scss}"
 ```
 
 おっとエラーに、、、
