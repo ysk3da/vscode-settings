@@ -1,0 +1,62 @@
+{
+  // "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "editor.renderWhitespace": "all",
+  "eslint.format.enable": false,
+  "editor.formatOnSave": true, //Udemyおすすめ
+  "prettier.semi": true, //Udemyおすすめ
+  "prettier.singleQuote": true, //Udemyおすすめ
+  //"terminal.integrated.shell.osx": "/bin/zsh",
+  "breadcrumbs.enabled": true,
+  "html.format.wrapLineLength": 0,
+  "editor.largeFileOptimizations": false,
+  "git.suggestSmartCommit": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded", // or compressed
+      "extensionName": ".css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**",
+    ".history/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "last 2 versions",
+    "android >= 4",
+    "iOS >= 9",
+    "ie >= 11"
+  ],
+  "files.autoGuessEncoding": true,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  // "reactSnippets.settings.prettierEnabled": true,
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.extensionOnImport": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "partialDiff.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off"
+}
