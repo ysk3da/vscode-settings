@@ -1,3 +1,18 @@
 {
-  
+  //icons
+  "workbench.iconTheme": "material-icon-theme",
+  // fontSize
+  "editor.fontSize": 14,
+  // selected row number highlight
+  "editor.renderLineHighlight": "all",
+  // display lines at Columns
+  "editor.rulers": [40, 80, 120],
+   // 括弧の対応を色付ける
+  "editor.bracketPairColorization.enabled": true,
+  //tabSize
+  "editor.tabSize": 2,
+  //display whitespaces
+  "editor.renderWhitespace": "all",
+  //telemetry
+  "telemetry.telemetryLevel": "off",
 }
