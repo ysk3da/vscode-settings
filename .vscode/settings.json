@@ -1,6 +1,13 @@
 {
   //icons
   "workbench.iconTheme": "material-icon-theme",
+  // vscode theme
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0078d4",
+    "titleBar.activeForeground": "#fff",
+    "activityBar.background": "#0078d4",
+    "activityBar.foreground": "#fff"
+  },
   // fontSize
   "editor.fontSize": 14,
   // selected row number highlight
